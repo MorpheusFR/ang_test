@@ -1,0 +1,9 @@
+<div class='single-user' tabindex="-1" *ngFor="let client of clients" (click)='selectClient(client)' >
+  <mat-card class="card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image" [style.backgroundImage]="'url(' + client.general.avatar + ')'"></div>
+      <mat-card-title>{{client.general.firstName}}</mat-card-title>
+      <mat-card-subtitle>{{client.job.company}}</mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
+</div>

@@ -6,25 +6,10 @@ import { Client } from '../client';
   templateUrl: './clients.component.html',
   styleUrls: ['./clients.component.css']
 })
-// export class ClientsComponent implements OnInit {
-//   client: Client = { 
-//     general: Array<"general">,
-//     job: Array<"job">,
-//     contact: Array<"contact">,
-//     address: Array<"address">, 
-//     // id: 1,
-//     // name: 'Windstorm'
-//   };
-  
-//   constructor() { }
 
-//   ngOnInit() {
-//   }
-
-// }
 export class ClientsComponent implements OnInit {
  
-  heroes = CLIENTS;
+  // clients = CLIENTS;
  
   selectedHero: Client;
  
