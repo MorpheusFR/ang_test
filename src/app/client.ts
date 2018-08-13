@@ -1,4 +1,10 @@
+// export class Client {
+//   id: number;
+//   name: string;
+// }
 export class Client {
-  id: number;
-  name: string;
+  general: Array<"general">;
+  job: Array<"job">;
+  contact: Array<"contact">;
+  address: Array<"address">;
 }
